@@ -1,0 +1,12 @@
+InputConfig(
+    bindings: {
+        "PlayerInput": {
+            "Movement": [
+                DualAxis(
+                    x: Hold([Key(KeyA)], [Key(KeyD)]),
+                    y: Hold([Key(KeyS)],[Key(KeyW)]),
+                )
+            ]
+        }
+    }
+)
